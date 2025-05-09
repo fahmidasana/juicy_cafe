@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <style>
+        *{
+            box-sizing: border-box;
+        }
         #navbar-example2 {
             text-decoration: none;
             color: black;
@@ -114,9 +117,7 @@
             margin-bottom: 20px;
         }
 
-        .menu-section {
-            padding: 20px;
-        }
+       
 
         .menu-title {
             text-align: center;
@@ -162,6 +163,8 @@
             align-items: center;
             gap: 30px;
             margin-top: 50px;
+            margin-left:0px;
+           
         }
 
         .timing-image {
@@ -209,11 +212,14 @@
             .menu-column {
                 width: 45%;
                 max-width: 400px;
+                /* padding-left: 30px; */
+               
             }
 
             .timing-images {
                 flex-direction: row;
                 justify-content: center;
+               
             }
         }
 
@@ -225,14 +231,14 @@
 
             .hero-image {
                 margin-top: 100px;
-                margin-left: 50px;
+                /* margin-left: 50px; */
                 height: 350px;
                 width: 350px;
             }
 
             .hero-text {
-                margin-top: 100px;
-                margin-left: 150px;
+                /* margin-top: 100px;
+                margin-left: 150px; */
             }
 
             .gallery-row {
@@ -252,6 +258,16 @@
                 justify-content: center;
             }
            
+        }
+        @media screen and (max-width:344px){
+
+         
+           .timing-image{
+            width: 200px; 
+           }
+            .sana{
+                width: 200px; 
+            }
         }
     </style>
 </head>
@@ -466,13 +482,13 @@
     <div class="timing-section">
         <h1>Juicy Timing</h1>
 
-        <div class="timing-images">
-            <img src="https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg" alt="Apple Juice"
-                class="timing-image"  style="width: 400px;height: 450px;">
-            <div
-                style="height: 450px; width: 400px; background-color: rgba(21, 17, 17, 0.089); border-radius: 20px;">
+        <div class="timing-images" >
+            <img    src="https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg" alt="Apple Juice"
+                class="timing-image"  style="width: 340px;height: 450px;">
+            <div class="sana"
+                style="height: 450px; width: 340px; background-color: rgba(21, 17, 17, 0.089); border-radius: 20px;">
                 <h1>Opening Hours</h1>
-                <div  class="aa" style="display: flex; flex-direction: row; gap: 30px;justify-content: center;padding-top: 50px;">
+                <div  class="aa" style="display: flex; flex-direction: row; gap: 8px;justify-content: center;padding-top: 50px;">
                     <div  style="text-align: start;  font-size: 25px; ">Monday <br>
                         tuesday <br> wednesday <br> thursday, <br> friday <br>saturday <br> sunday</div>
 
@@ -501,7 +517,7 @@
                     d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
             </svg>
 
-            <a href="https://www.instagram.com/shahz_.ad?igsh=MTF0ZzBhaGY0ZDg5OQ"><svg
+            <a href="https://www.instagram.com/fahmida_sana_?igsh=MTUxNDMzenA5aG0zdw=="><svg
                     xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
                     stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
@@ -511,7 +527,7 @@
                     <path d="M16.5 7.5v.01" />
                 </svg></a>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
+         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
                 stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
